@@ -1,0 +1,167 @@
+body{
+    font-family:  'Montaga', serif;
+    margin: 0;
+}
+h1,h2,h3,h4,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+} 
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+.logo{
+    margin-top: 5px;
+}
+.header{
+    background-color: #051926;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    height: inherit;
+}
+.menu{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.header ol{
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+.principal{
+    height: 300px;
+    background-color: #051926;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagenPrincipal{
+    object-fit: cover;
+}
+h1{
+    color: white;
+}
+strong{
+    color: #226ED3;
+}
+h2{
+    color: #226ED3;
+    font-size: 24px;
+}
+.acercaDeMi{
+    background: #F2E9F7;
+    padding: 20px;
+}
+.sobreMi{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.descripcionSobreMi{
+    font-size: 20px;
+}
+.tituloSobreMi{
+    font-size: 30px;
+}
+.listaMasSobreMi{
+    display: flex;
+    flex-wrap: wrap;
+}
+.masSobreMi{
+    width: 480px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #F0F0F6;
+}
+.imagenMasSobreMi{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.detalleMasSobreMi{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.contacto{
+    background-color: #226ED3;
+    color: white;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.linkSocial{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+}
+.linkSocial.github{
+    background-size: 40px 40px;
+    background-image: url("https://img.icons8.com/ios-filled/100/000000/github.png");
+}
+.linkSocial.youtube{
+    background-size: 40px 40px;
+    background-image: url("https://img.icons8.com/ios-filled/100/000000/youtube-play.png");
+}
+.linkSocial.bibliaapp{
+    background-size: 40px 40px;
+    background-image: url("https://img.icons8.com/ios-filled/100/000000/holy-bible.png");
+}
+.formularioEmail input{
+    border-color: gray;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.formularioEmail button{
+    display: block;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.footer{
+    background-color: #051926;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
